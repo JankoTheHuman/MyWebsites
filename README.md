@@ -1,2 +1,2 @@
 # MyWebsites
-Neki od mojih vebsajtova koji su rađeni kao seminarski ili kao lični projekti.
+Some of my websites that were done as school projects or personal ones.
