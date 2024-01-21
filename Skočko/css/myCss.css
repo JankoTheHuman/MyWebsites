@@ -1,0 +1,272 @@
+/* primarna   #1E3050
+   sekundarna #8a9ab5   */
+
+::selection {
+  background-color: #8a9ab5;
+}
+
+
+.slovo::first-letter {
+  font-size: 2em;
+  line-height: 100px;
+  color: #8a9ab5;
+}
+
+
+.card-body p {
+  font-size: 1.2rem;
+}
+
+
+.card-body ol li{
+  font-size: 1.2rem;
+}
+
+body {
+  background: linear-gradient(180deg, #e6e6e6, #f7f7f7);
+  min-height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  padding-bottom: 150px;
+  min-width: 319.9px;
+}
+
+.navbar-brand {
+  transform: scale(1.5);
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-right: 40px;
+}
+
+
+.navText {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 0 10px;
+  transition: ease-in 0.5s;
+}
+
+.trenutno {
+  border-bottom: 3.5px solid #8a9ab5;
+  border-radius: 30%;
+}
+
+.navText:hover {
+  background-color: #8a9ab5;
+  color: white !important;
+  transform: scale(1.2);
+  transition: ease-out 0.5s;
+  border-radius: 50px;
+}
+
+footer {
+  background-color: #918e8e;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+
+}
+
+footer .list-inline-item {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
+  margin-bottom: 10px;
+
+}
+
+#dugmadBioskop button{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: #8a9ab5;
+  font-size: 1.3rem;
+  border: solid 3px white;
+
+
+  letter-spacing: 0.05rem;
+}
+
+#punprikaz{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: #1E3050;
+  font-size: 1.3rem;
+  border: solid 3px white;
+  letter-spacing: 0.05rem;
+}
+
+
+#video {
+  position: relative;
+  width: 80%; 
+  overflow: hidden;
+}
+
+#video video {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#playPause{
+  width: 150px;
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: green ;
+  font-size: 1.3rem;
+  border: solid 3px white;
+}
+
+#obrisi{
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: rgb(237, 54, 54) ;
+  font-size: 1.3rem;
+  border: solid 3px white;
+}
+
+#igrajOpet{
+  height: 50px;
+  border-radius: 15px;
+  color: white;
+  background-color: green;
+  font-size: 1.3rem;
+  border: solid 3px white;
+}
+
+#tabela table thead th{
+  border: solid 2px black;
+  padding: 5px 20px;
+  font-size: 1.2rem;
+  
+
+}
+
+#tabela{
+  margin: auto;
+}
+
+th .fa-solid{
+  scale: 2;
+  margin: 0 10px;
+
+}
+
+td{
+  border-left: 1px solid black;  
+}
+
+tbody{
+  border: 1px solid black;
+}
+
+.red{
+  margin-bottom: 10px;
+
+}
+
+#pogadjanje .red div,#resenje .red div {
+  border: 3px #1E3050 solid;
+  border-radius: 15px;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+}
+
+#resenje{
+  margin-top: 50px;
+  
+  
+}
+
+
+#pogodjeno .red div{
+  border: 3px #8a9ab5 solid;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.fa-poo{
+  color: rgba(165, 42, 42, 0.523);
+}
+.fa-heart{
+  color: red;
+  padding-top: 4px !important;
+}
+
+.fa-clover{
+  color: green;
+}
+
+.fa-diamond{
+  color: rgb(95, 132, 166);
+  padding-top: 3px !important;
+}
+
+.fa-star{
+  color: rgb(244, 141, 6);
+}
+
+
+#znakovi div div {
+  display: inline-block;
+  
+}
+
+
+#znakovi div div .fa-solid{
+  font-size: 2.4rem;
+  padding-top: 2px;
+}
+
+#pogadjanje div div .fa-solid{
+  font-size: 2.4rem;
+  padding-top: 2px;
+}
+
+#resenje div div .fa-solid{
+  font-size: 2.4rem;
+  padding-top: 2px;
+}
+
+.fa-square{
+  color: #EFEFEF;
+}
+
+#znakovi{
+  margin-top: 50px;
+}
+
+#header{
+  width: 100%;
+  height: 150px;
+}
+
+#header img {
+  width: 100%;
+  height: 150px;
+}
+
+
+@media (max-width:993px) {
+  #navbarSupportedContent ul li a{
+    width: 70px !important;
+    margin: 5px 0;
+    padding-left:5px ;
+  }
+}
