@@ -1,0 +1,701 @@
+/*  #E22E37     crvena
+    #88C057     zelena 
+    #C72C83     maline 
+    #6B4141     sadnice */
+
+
+
+::selection {
+  background-color: #88C057;
+}
+
+.zelena {
+  color: #88C057;
+}
+
+.crvena {
+  color: #E22E37;
+}
+
+.slovo::first-letter {
+  font-size: 2em;
+  color: #88C057;
+  line-height: 100px;
+  font-style: italic;
+}
+
+.slovoB {
+  font-size: 2em;
+  color: #88C057;
+  font-style: italic;
+  line-height: 100px;
+}
+
+#slikaStampa {
+  margin-top: -40px;
+}
+
+#tekstStampa {
+  font-size: 1.2rem;
+}
+
+.card-body p {
+  font-size: 1.2rem;
+}
+
+
+
+#rasadnikVideo {
+  margin: 0 15%;
+  height: 400px;
+}
+
+#printUl li p {
+  display: inline;
+}
+
+
+body {
+  background: linear-gradient(180deg, #e6e6e6, #f7f7f7);
+  color: #514B64;
+  min-height: 100vh;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  position: relative;
+  padding-bottom: 150px;
+  min-width: 319.9px; 
+}
+
+.pitanje {
+  font-size: 1.5rem;
+}
+
+.pitanje::first-letter {
+  color: #88C057;
+  font-size: 2rem;
+}
+
+.odgovor {
+  font-size: 1.2rem;
+}
+
+
+.carousel-item img {
+  object-fit: cover;
+}
+
+.carousel-item {
+  height: 500px;
+}
+
+.odgovor::first-letter {
+  color: #E22E37;
+  font-size: 1.5rem;
+}
+
+.navbar-brand {
+  transform: scale(1.5);
+  margin-left: 15px;
+  margin-top: 10px;
+  margin-bottom: 2px;
+  margin-right: 40px;
+
+
+}
+
+
+
+.fa-brands {
+  transform: scale(2);
+  transition: ease-in 0.5s;
+  color: #88C057;
+  margin: 0 10px;
+  border-bottom: 2px solid #E22E37;
+  border-radius: 30%;
+  padding: 0 5px 3px 5px;
+}
+
+#socialNav {
+  margin-right: -10px !important;
+
+}
+
+.fa-brands:hover {
+
+  border-radius: 100%;
+  transform: scale(3) rotateY(360deg);
+  transition: ease-out 0.5s;
+
+
+}
+
+
+.navText {
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  margin: 0 5px;
+  transition: ease-in 0.5s;
+
+
+}
+
+.trenutno {
+  border-bottom: 3.5px solid #E22E37;
+  border-radius: 30%;
+
+}
+
+
+
+
+.navText:hover {
+  background-color: #E22E37;
+  color: white !important;
+  transform: scale(1.2);
+  transition: ease-out 0.5s;
+  box-shadow: 0px -10px 0px #88C057;
+  border-radius: 15% 15% 50% 50%;
+  position: relative;
+}
+
+.navTextDropdown {
+  transition: ease-in 0.5s;
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  font-size: 1.1rem;
+  margin: 10px 0;
+
+}
+
+
+
+
+footer {
+  background-color: #918e8e;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding-top: 10px;
+
+}
+
+
+footer .list-inline-item a,
+footer .list-inline-item {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  text-transform: uppercase;
+  color: white;
+  margin: 0 15px;
+  transition: linear 0.2s;
+
+}
+
+footer .list-inline-item a:hover {
+  color: black;
+  transition: linear 0.2s;
+}
+
+
+.fa-solid {
+  margin-right: 5px;
+}
+
+
+.gallery-image {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+
+
+
+}
+
+.firstPic {
+  margin-left: 17px;
+}
+
+
+#kontaktKontakt li a {
+  text-decoration: none;
+  margin: 0 20px;
+  font-size: 1.3rem;
+  color: black;
+  transition: 1s;
+  display: inline-block;
+
+}
+
+#kontaktKontakt li {
+  display: inline-block;
+  border-right: solid 1px #E22E37;
+
+}
+
+#kontaktKontakt li:first-child {
+
+  border-left: solid 1px #E22E37;
+
+}
+
+#kontaktKontakt {
+  text-align: center;
+
+}
+
+
+.naslovKontakt {
+  text-align: center;
+  font-size: 4rem;
+  letter-spacing: 0.6rem;
+  text-transform: uppercase;
+}
+
+#kontaktKontakt li a {
+  transition: 1s;
+
+}
+
+#kontaktKontakt li a:hover {
+  transform: scale(0.9);
+  transition: 1s;
+}
+
+
+
+#forma {
+  text-align: center;
+}
+
+#forma div form div input {
+  font-size: 1.2rem;
+  height: 50px;
+  max-width: 800px;
+
+}
+
+
+#forma div form div textarea {
+  font-size: 1.2rem;
+  height: 160px;
+  max-width: 800px;
+
+}
+
+#dugmeKontakt {
+  width: 80%;
+  max-width: 700px;
+}
+
+#dugmeKontakt button {
+  background-color: #E22E37;
+  box-shadow: 0px -10px 0px #88C057;
+  border: #E22E37 solid 1px;
+
+}
+
+.dugmePocetna {
+  background-color: #E22E37;
+  box-shadow: 0px -10px 0px #88C057;
+  border: #E22E37 solid 2px;
+}
+
+.dugmePocetna:hover {
+  background-color: #df4b53;
+  border: #E22E37 solid 2px;
+
+}
+
+.kontaktFormCenter {
+  margin: auto;
+}
+
+#onamaKontakt {
+  background-color: #88C057;
+  border-radius: 15px;
+  font-style: oblique;
+  text-decoration: none;
+  color: white;
+  padding: 0 15px;
+}
+
+#dugmeONama {
+  background-color: #E22E37;
+  box-shadow: 0px -10px 0px #88C057;
+  width: 70%;
+  margin-top: 20px;
+  max-width: 450px;
+  color: white;
+  border: 1px #E22E37 solid !important;
+
+}
+
+.dugmeONamaDiv {
+  text-align: center;
+}
+
+#dugmeCenovnik {
+  background-color: #E22E37;
+  box-shadow: 0px -10px 0px #88C057;
+  width: 70%;
+  margin-top: 20px;
+  max-width: 180px;
+  color: white;
+  border: 1px #E22E37 solid !important;
+
+}
+
+
+
+
+#stampaSlika {
+  width: 100%;
+  height: 800px;
+  border-radius: 20px;
+  margin-top: 13px;
+}
+
+
+
+#printUl li {
+  font-size: 1.5rem;
+  line-height: 50px;
+
+}
+
+
+#plutajucaDugmad {
+  margin-top: 30px;
+}
+
+#plutajucaDugmad button {
+  background-color: #E22E37;
+  box-shadow: 0px -10px 0px #88C057;
+  border: #E22E37 solid 1px;
+  color: white;
+  width: 200px;
+  margin: 0 15px;
+}
+
+#centarPlutajucih {
+  text-align: center;
+
+}
+
+#kontent {
+  margin-top: 20px;
+}
+
+.slikaJagoda {
+  width: 100%;
+  height: fit-content;
+}
+
+#pregledJagoda li {
+  font-size: 1.2rem;
+}
+
+#skrjz {
+  margin-top: -20px;
+}
+
+.listaCenovnik li {
+  font-size: 1.2rem;
+}
+
+.cenovnikJagode {
+  color: #E22E37;
+}
+
+.cenovnikMaline {
+  color: #C72C83;
+}
+
+.cenovnikKornisoni {
+  color: #88C057;
+}
+
+.cenovnikSadnice {
+  color: rgb(107, 65, 65);
+}
+
+#navSadnice:hover {
+  background-color: #6B4141;
+  color: white !important;
+  transition: ease-out 0.5s;
+  box-shadow: 0px -10px 0px #88C057;
+  border-radius: 15% 15% 50% 50%;
+  position: relative;
+
+}
+
+#navJagode:hover {
+  background-color: #E22E37;
+  color: white !important;
+  transition: ease-out 0.5s;
+  box-shadow: 0px -10px 0px #88C057;
+  border-radius: 15% 15% 50% 50%;
+  position: relative;
+
+}
+
+#navMaline:hover {
+  background-color: #C72C83;
+  color: white !important;
+  transition: ease-out 0.5s;
+  box-shadow: 0px -10px 0px #88C057;
+  border-radius: 15% 15% 50% 50%;
+  position: relative;
+
+}
+
+
+#navKornisoni:hover {
+  background-color: #88C057;
+  color: white !important;
+  transition: ease-out 0.5s;
+  box-shadow: 0px -10px 0px #88C057;
+  border-radius: 15% 15% 50% 50%;
+  position: relative;
+
+}
+
+#NavCenovnikDiv {
+  margin-top: 10px;
+  margin-bottom: 1px;
+
+}
+
+#navCenovnik {
+
+  width: 87%;
+  margin: auto;
+
+}
+
+#navCenovnik:hover {
+
+  transition: ease-out 0.5s;
+  box-shadow: -10px 0px 0px #C72C83,
+    10px 0px 0px #FF0000,
+    0px -10px 0px #88C057,
+    0px 10px 0px #8B4513;
+
+
+  border-radius: 20px;
+  position: relative;
+
+}
+
+#navDropwDown li {
+  width: 200px;
+}
+
+#navSocial {
+  margin-right: 5px !important;
+}
+
+.mapaLista {
+  border: solid 3px #88C057;
+  border-radius: 10px;
+}
+
+.list-group-item a {
+  text-decoration: none;
+  font-size: 1.2rem;
+}
+
+#mapa {
+  width: 100%;
+  height: 500px;
+  margin-left: auto;
+}
+
+.navbar-brand {
+  margin-bottom: 13px !important;
+}
+
+/* Ovo se desava ispod -xl za bootsrap */
+@media (max-width: 1200px) {
+
+  #img8 {
+    margin-left: 20px !important;
+  }
+
+  #img2 {
+    margin-top: 20px;
+  }
+
+  #img20 {
+    margin-left: 20px;
+  }
+
+  #img11 {
+    margin-left: -4px !important;
+  }
+
+}
+
+/* Ovo se desava ispod -lg za bootsrap tj kada se navbar pretvori u hamburger*/
+@media (max-width: 991.9px) {
+
+  #navDropwDown {
+    width: 200px !important;
+    text-align: center !important;
+    
+  }
+
+  #navDropwDown li {
+    text-align: center !important;
+    width: 200px !important;
+  }
+
+  #navDropwDown li a {
+    text-align: center !important;
+    width: 180px !important;
+  }
+
+
+
+  #navCenovnik {
+
+    width: auto;
+    margin: auto;
+
+  }
+
+  .drugaDva {
+    margin-top: 30px !important;
+  }
+
+  .carousel-item {
+    height: 300px;
+  }
+
+  .navbar-nav .nav-link,
+  .dropdown-menu .dropdown-item {
+    display: inline-block;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+  }
+
+  nav div ul:first-child {
+    margin-top: 25px;
+  }
+
+  .dropdown-menu {
+    margin-bottom: 15px;
+  }
+
+  .divGalerija {
+    margin-left: 40px !important;
+    margin-top: 5px !important;
+    margin-bottom: 5px !important;
+    margin-right: 5px !important;
+
+    width: 40% !important;
+  }
+
+  #img8 {
+    margin-left: 40px !important;
+  }
+
+  #img11 {
+    margin-left: 40px !important;
+
+  }
+
+
+
+
+  #kontaktKontakt li {
+
+    border-bottom: solid 1px #E22E37;
+    border-left: none;
+    border-right: none;
+    margin: 5px 0;
+
+  }
+
+  #kontaktKontakt li:first-child {
+
+    border-left: none;
+
+  }
+
+  .textKontakt {
+    font-size: 2rem;
+  }
+
+}
+
+
+
+
+@media (max-width:570px) {
+
+  #carouselExampleInterval div div img {
+    height: 500px !important;
+  }
+
+  #kontent div div div img {
+    height: 300px !important;
+  }
+
+
+  .jagodaIndex {
+    width: 30px;
+    height: 30px;
+  }
+
+
+  #malineCardIndex {
+    margin-bottom: 30px;
+  }
+
+  .footerBreak {
+    margin: 100px 0;
+  }
+
+  footer ul li a {
+    font-size: 0.8rem;
+  }
+
+  #socialNavv li a {
+    margin: 0 -10px !important;
+  }
+
+  #plutajucaDugmad button {
+    width: 30% !important;
+  }
+
+  .divGalerija {
+
+
+    width: 30% !important;
+  }
+
+
+  #rasadnikVideo {
+    height: 200px !important;
+  }
+
+
+  #kontaktiramoVas{
+    font-size: 1.5rem;
+  }
+
+  #kontaktKontakt li a {
+    
+    font-size: 1.05rem !important;
+   
+  
+  }
+  
+  .dugmeJagode{
+    height: 90px !important;
+  }
+}
